@@ -1,0 +1,13 @@
+{
+    "name": "enigmatix/yii2-helpers",
+    "description": "yii2 code helpers to help me not go crazy",
+    "authors": [
+        {
+            "name": "Joel Small",
+            "email": "joel.small@biscon.com.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
