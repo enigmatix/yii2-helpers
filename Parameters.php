@@ -6,7 +6,7 @@
  * Time: 2:17 PM
  */
 
-namespace common\helpers;
+namespace enigmatix\yii2-helpers;
 
 class Parameters {
 
@@ -34,4 +34,4 @@ class Parameters {
         return $value;
     }
 
-} 
+}
