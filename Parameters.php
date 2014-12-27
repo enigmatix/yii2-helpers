@@ -6,7 +6,7 @@
  * Time: 2:17 PM
  */
 
-namespace enigmatix\yii2-helpers;
+namespace enigmatix\helpers;
 
 class Parameters {
 
