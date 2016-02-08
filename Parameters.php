@@ -27,11 +27,18 @@ class Parameters {
         {
             return self::jsonify($value);
         }
-        if(strpos($value,'function') === false)
+
+        if(strpos($value,'function') !== false)
         {
-            $value = '"'.$value.'"';
+            return $value;
         }
-        return $value;
+
+        if($value === 'true' || $value === 'false'){
+            return "'".$value."'";
+        }
+
+        return '"'.$value.'"';
+
     }
 
 }
